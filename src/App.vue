@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img alt="De Oosterhof" src="./assets/logo.png" width="300" heigth="width">
+    <img alt="Wide Bear" src="./assets/widebear_logo.png" width="300" heigth="200">
     <Main msg="Wide Bear"/>
 
   </div>
@@ -12,7 +12,6 @@ import Main from './components/Main.vue'
 export default {
   name: 'App',
   components: {
-    // eslint-disable-next-line vue/no-unused-components
     Main
   }
 }
@@ -25,6 +24,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 30px;
 }
 </style>

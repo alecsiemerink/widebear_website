@@ -1,15 +1,11 @@
 <template>
   <div class="main">
     <h1>{{ msg }}</h1>
-    <h3>
-      Technology
-    </h3>
-    <div class="overiglinks">
+    <h3>Technology</h3>
         <li>
           <ul><b><p>Github:</p></b></ul>
           <ul><a href="https://github.com/alecsiemerink"><p>Alec Siemerink</p></a></ul>
         </li>
-    </div>
   </div>
 </template>
 
@@ -42,7 +38,7 @@ ul {
 }
 li {
   display: inline-block;
-  margin: 0 10px;
+  /*margin: 0 10px;*/
 }
 a {
   color: #2e7aa3;
